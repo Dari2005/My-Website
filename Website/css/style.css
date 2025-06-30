@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, #f0f4f8, #e0ecf5);
+    line-height: 1.8;
+}
+header {
+    background: linear-gradient(to right, greenyellow, dodgerblue);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+nav {
+    margin-top: 15px;
+    a {
+        color: white;
+    }
+}
+nav a:hover{
+    border-bottom:2px solid white ;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+section {
+    max-width: 1700px;
+    background: white;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+section:hover {
+    transform: translateY(-5px);
+}
+section p{
+    width: 100%;
+
+    text-align:justify;
+    font-size: 1.4em;
+
+}
+section#Biography p{
+    width: 70%;
+    text-align:justify;
+    display: inline-block;
+    vertical-align: top;
+}
+section#Education p{
+    width: 72%;
+    text-align:justify;
+}
+#finki{
+    display: inline-block;
+    margin-left: 100px;
+    vertical-align: top;
+
+}
+#Education p{
+    display: inline-block;
+    vertical-align: top;
+}
+section h2 {
+    color: darkblue;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    border-left: 6px solid greenyellow;
+    padding-left: 12px;
+}
+#gym{
+    margin-left: 240px;
+    width: 30%;
+    height: 30%;
+}
+#gym1{
+    margin-left: 100px;
+    width: 30%;
+    height: 30%;
+}
+#camp{
+    margin-left: 240px;
+    width: 30%;
+    height: 20%;
+}
+#messi{
+    margin-left: 100px;
+    width: 30%;
+    height: 50%;
+}
+#air{
+    margin-left: 240px;
+    width: 30%;
+    height: 30%;
+}
+#fico{
+    margin-left: 100px;
+    width: 30%;
+    height: 50%;
+}
+#paris{
+    margin-left: 240px;
+    width: 30%;
+    height: 40%;
+
+}
+#new{
+    margin-left: 100px;
+    width: 30%;
+    height: 50%;
+}
+#jas{
+    margin-left: 100px;
+    width: 300px;
+    height: 450px;
+}
+
